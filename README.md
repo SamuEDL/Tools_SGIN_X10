@@ -17,12 +17,17 @@
 | Kernel                    | 4.14.193 |
 | Architecture                    |  Arch64  |
 | CodeName Spreadtrum Chipset | ums512_1h10 |
-| Connections/Conexiones  | MicroSD, jack y USB-C (OTG) |
-| Camera/Camara        | 8Mpxl (trasera) y 5Mpxl (delantera) |
-| Connectivity / Conectividad  | Wifi 2,4 Ghz/ 5Ghz / bluetooth|
+| Connections/Conexiones  | MicroSD, Jack y USB-C (OTG) |
+| Camera/Camara        | 8Mpxl (Trasera) y 5Mpxl (Delantera) |
+| Connectivity / Conectividad  | Wifi 2,4 Ghz/ 5Ghz / Bluetooth|
 | Batery / Batería                  | 7000mAh  |
-| Touch controller  / Controlador Tactil        |  - |
+| Project Treble Support       |  Yes |
+| Touch controller  / Controlador Tactil     |  - |
 | Power management circuit / Circuito de gestión de energía | -  |
 | Touch / Panel tactil                   | -  |
 | Acelerometter  / Acelerometro             | -  |
 
+## Others:
+Unlock Bootloader https://www.hovatek.com/forum/thread-32287.html
+
+Possible Kernel Source: https://github.com/strongtz/linux-sprd
