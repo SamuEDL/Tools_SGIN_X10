@@ -11,7 +11,7 @@
 | GPU                    | Mali-G52  |
 | Ram   | 6 GB |
 | Rom      | 128 GB |
-| Screen/Pantalla   | 1920x1200 IPS |
+| Screen/Pantalla   | 1920 x 1200 IPS |
 | Modem  | 4G (sharkl5pro_modem) |
 | Android                    | 11  |
 | Kernel                    | 4.14.193 |
