@@ -1,5 +1,7 @@
 # Tools_SGIN_X10
-Tool for Sgin X10
+
+![X10 foto](https://github.com/SamuEDL/Tools_SGIN_X10/blob/main/Sgin_X10.JPG?raw=true)
+
 
 ## Features/Caracteristicas:
 | Item                      | Description |
