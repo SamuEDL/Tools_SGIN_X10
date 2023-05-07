@@ -28,6 +28,13 @@
 | Acelerometter  / Acelerometro             | -  |
 | Wifi             | sc2355  |
 
+Firmware compatible
+- Teclast M40 Pro M1A2 (NO TOUCH)
+- Teclast M40 Pro M1A1
+- Teclast M40 Pro Z3A1
+- Teclast M40 Pro Z3A2
+
+
 ## Others:
 
 Bootloaders
