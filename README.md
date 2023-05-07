@@ -23,11 +23,23 @@
 | Batery / Batería                  | 7000mAh  |
 | Project Treble Support       |  Yes |
 | Touch controller  / Controlador Tactil     |  - |
-| Power management circuit / Circuito de gestión de energía | -  |
+| Power management circuit / Circuito de gestión de energía | bq2560x |
 | Touch / Panel tactil                   | -  |
 | Acelerometter  / Acelerometro             | -  |
+| Wifi             | sc2355  |
 
 ## Others:
-Unlock Bootloader https://www.hovatek.com/forum/thread-32287.html
+
+Bootloaders
+Unlock Bootloader (Linux) https://www.hovatek.com/forum/thread-32287.html
+Unlock Bootloader (Windows) https://forum.xda-developers.com/t/alldocube-iplay-40-review-an-all-around-tablet-with-some-minor-compromises.4212541/page-6#post-85850877
 
 Possible Kernel Source: https://github.com/strongtz/linux-sprd
+
+
+FLASH GSI: 
+adb reboot fastboot <- Reinicia en mod fastbootd desde ANDROID
+fastboot reboot fastboot <- Reiniciar en modo fastbootd desde BOOTLOADER
+fastboot delete-logical-partition product_a <- ELIMINA PARTICION PRODUCT
+fastboot flash --disable-verity --disable-verification system_a imagen.img INSTALA LA ROM GSI
+fastboot -w <- Eliminar datos de usuario/caché 
