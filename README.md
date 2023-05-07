@@ -30,7 +30,7 @@
 | Wifi             | sc2355  |
 
 Firmware Tested
-- Teclast M40 Pro MIA3 
+- Teclast M40 Pro MIA3 (No TOUCH)
 - Teclast M40 Pro M1A2 (NO TOUCH)
 - Teclast M40 Pro M1A1 (NO LCD)
 - Teclast M40 Pro Z3A1 (NO LCD)
