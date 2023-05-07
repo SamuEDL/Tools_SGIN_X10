@@ -24,29 +24,31 @@
 | Project Treble Support       |  Yes |
 | Touch controller  / Controlador Tactil     |  - |
 | Power management circuit / Circuito de gestión de energía | bq2560x |
+| LCD                  | LCDQC8279-5035  |
 | Touch / Panel tactil                   | -  |
 | Acelerometter  / Acelerometro             | -  |
 | Wifi             | sc2355  |
 
-Firmware compatible
+Firmware Tested
+- Teclast M40 Pro MIA3 
 - Teclast M40 Pro M1A2 (NO TOUCH)
-- Teclast M40 Pro M1A1
-- Teclast M40 Pro Z3A1 (NO WORKING)
-- Teclast M40 Pro Z3A2
+- Teclast M40 Pro M1A1 (NO LCD)
+- Teclast M40 Pro Z3A1 (NO LCD)
+- Teclast M40 Pro Z3A2 (NO TESTED)
 
 
 ## Others:
 
 Bootloaders
-Unlock Bootloader (Linux) https://www.hovatek.com/forum/thread-32287.html
-Unlock Bootloader (Windows) https://forum.xda-developers.com/t/alldocube-iplay-40-review-an-all-around-tablet-with-some-minor-compromises.4212541/page-6#post-85850877
+- Unlock Bootloader (Linux) https://www.hovatek.com/forum/thread-32287.html
+- Unlock Bootloader (Windows) https://forum.xda-developers.com/t/alldocube-iplay-40-review-an-all-around-tablet-with-some-minor-compromises.4212541/page-6#post-85850877
+- Possible Kernel Source: https://github.com/strongtz/linux-sprd
 
-Possible Kernel Source: https://github.com/strongtz/linux-sprd
 
+## FLASH GSI: 
 
-FLASH GSI: 
-adb reboot fastboot <- Reinicia en mod fastbootd desde ANDROID
-fastboot reboot fastboot <- Reiniciar en modo fastbootd desde BOOTLOADER
-fastboot delete-logical-partition product_a <- ELIMINA PARTICION PRODUCT
-fastboot flash --disable-verity --disable-verification system_a imagen.img INSTALA LA ROM GSI
-fastboot -w <- Eliminar datos de usuario/caché 
+1. adb reboot fastboot <- Reinicia en mod fastbootd desde ANDROID
+2. fastboot reboot fastboot <- Reiniciar en modo fastbootd desde BOOTLOADER
+3. fastboot delete-logical-partition product_a <- ELIMINA PARTICION PRODUCT
+4. fastboot flash --disable-verity --disable-verification system_a imagen.img INSTALA LA ROM GSI
+5. fastboot -w <- Eliminar datos de usuario/caché 
