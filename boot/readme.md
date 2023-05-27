@@ -1,6 +1,6 @@
 | Kernel| Based | Kernel Version | Modded | Tested On Sgin X10 |
 | --- | --- | --- | --- | --- |
-| boot_a.zip) | Stock SGIN X10  | 4.9.170 | No | Yes |
+| boot_a.zip | Stock SGIN X10  | 4.14.193 | No | Yes |
 
 **Note:** Here there will only be kernels that are 100% compatible with the SGIN X10
 
