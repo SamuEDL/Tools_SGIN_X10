@@ -36,9 +36,9 @@ Firmware Tested
 ## Others:
 
 Bootloaders
-- Unlock Bootloader (Linux) https://www.hovatek.com/forum/thread-32287.html
-- Unlock Bootloader (Windows) https://forum.xda-developers.com/t/alldocube-iplay-40-review-an-all-around-tablet-with-some-minor-compromises.4212541/page-6#post-85850877
-- Possible Kernel Source: https://github.com/strongtz/linux-sprd
+- Unlock Bootloader (Linux): https://www.hovatek.com/forum/thread-32287.html
+- Unlock Bootloader (Windows): https://forum.xda-developers.com/t/alldocube-iplay-40-review-an-all-around-tablet-with-some-minor-compromises.4212541/page-6#post-85850877
+- Possible Kernel Source (4.14.133): https://github.com/strongtz/linux-sprd
 
 
 ## FLASH GSI: 
