@@ -30,7 +30,8 @@
 | Wifi             | sc2355  |
 
 Firmware Tested
-- Teclast M40 Pro M1A2 with the sgin X10 kernel
+- Teclast M40 Pro M1A2 with the sgin X10 kernel (The flashlight doesn't work). If the teclast stock kernel is used, the touch doesn't work.
+- Teclast M40 Pro M1A3 with the sgin X10 kernel (The flashlight doesn't work). If the teclast stock kernel is used, the touch doesn't work.
 
 
 ## Others:
