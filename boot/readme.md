@@ -2,7 +2,7 @@
 | --- | --- | --- | --- | --- |
 | boot_a | Stock SGIN X10  | 4.14.193 | No | Yes |
 | boot_stock | Stock SGIN X10  | 4.14.193 | No | Yes |
-| Boot_SginX10_Magisk_NoBoot | Stock SGIN X10  | 4.14.193 | Patched Magisk | Not boot |
+| BootMagiskSginX10 | Stock SGIN X10  | 4.14.193 | Patched Magisk | Yes |
 
 **Note:** Here there will only be kernels that are 100% compatible with the SGIN X10
 
